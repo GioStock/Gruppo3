@@ -10,21 +10,19 @@
 </head>
 <body data-bs-theme="ligth">
 
-    <div class="container bg-white bg-opacity-50 rounded-3">
+    <div class="container bg-white bg-opacity-50 rounded-5">
 
     <div class="row justify-content-center mt-5">
         <div class="col-lg-6">
-                <h1 class="text-center mt-5 mb-5"><i class="fa-brands fa-twitter me-2 "></i> Registrati su Twitter</h1>
-            <form action="#!">
-                <label for="nomeUtente" class="form-label mt-3">Inserisci il tuo Nome Utente</label>
-                <input type="text" id="nomeUtente" placeholder="Inserisci nickname" class="form-control">
-                <p id="feedUtente"></p>
-                
-                <label for="password" class="form-label mt-3">Inserisci la tua Password</label>
-                <input type="password" id="password" placeholder="inserisci la tua password" class="form-control">
-                <hr>
-                <button class="btn btn-info mt-3 mb-3 d-block ms-auto" id="btnInvia">invia</button>
-            </form>
+            <form action="index.html"><button class="btn btn-danger mt-3 d-block ms-auto">Logout</button></form>
+                <h1 class="text-center mt-5 mb-5"><i class="fa-brands fa-twitter me-2 "></i> Pubblica Tweet</h1>
+                <h6 class="text-start ms-3">Scrivi il tuo tweet(max.50 caratteri)</h6>
+            <textarea name="" id="" cols="30" rows="10" maxlength="50" placeholder="Scrivi il tuo tweet" class="form-control mb-5 d-block"></textarea>
+            <button id="btnInvia" class="btn btn-info mb-3 d-block ms-auto">Invia Tweet</button>
+            <hr>
+            <div class="container-tweet mb-5 mt-5 ms-auto bg-white bg-opacity-50 rounded-3">
+                <div id="tweet"><label for="tweet"><h6>Scrivi il tuo tweet nella casella qui sopra e postalo qui</h6> </label></div>
+            </div>
         </div>
     </div>
     </div>
